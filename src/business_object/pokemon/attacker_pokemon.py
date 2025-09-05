@@ -2,8 +2,6 @@ from business_object.pokemon.abstract_pokemon import Pokemon
 
 
 class AttackerPokemon(Pokemon):
-    def __innit__(self):
-        super().__innit__()
 
     def get_pokemon_attack_coef(self) -> float:
         """
